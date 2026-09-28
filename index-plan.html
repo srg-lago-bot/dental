@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Пошаговый план выхода на +5-10-15-20 млн тенге в стоматологии</title>
+<meta name="description" content="Четыре ступени роста выручки стоматологии: поиск, таргет, масштабирование и управляемая система. Плюс калькулятор: сколько заявок нужно под вашу цель.">
+<meta property="og:title" content="Пошаговый план выхода на +5-10-15-20 млн тенге в стоматологии">
+<meta property="og:type" content="article">
+<meta name="theme-color" content="#0d2b33">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700;800&display=swap" rel="stylesheet">
+<!-- Сюда вставьте Meta Pixel / Google Tag / Яндекс.Метрику -->
+<style>
+:root{--ink:#0d2b33;--bg:#f5f9f8;--card:#fff;--teal:#0e7c86;--mint:#dcefec;--amber:#e39a2d;--line:#cfe0dd}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font:400 17px/1.65 Onest,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);padding-bottom:calc(76px + env(safe-area-inset-bottom,0px));-webkit-text-size-adjust:100%}
+.w{max-width:680px;margin:0 auto;padding:0 20px}
+.hero{background:var(--ink);color:#fff;padding:calc(36px + env(safe-area-inset-top,0px)) 0 0;overflow:hidden}
+.tag{display:inline-block;font-size:14px;color:#9fd8d2;border:1px solid #2c5a62;border-radius:99px;padding:5px 14px;margin-bottom:22px}
+h1{font-size:clamp(29px,7.6vw,44px);line-height:1.1;font-weight:800;letter-spacing:-.02em;margin-bottom:18px}
+.lead{color:#c3dcda;font-size:18px;margin-bottom:26px}
+.hero .btn{max-width:360px;margin-bottom:34px}
+.stairs{display:grid;grid-template-columns:repeat(4,1fr);align-items:end;gap:6px;height:150px}
+.stairs div{background:#153e48;border-radius:10px 10px 0 0;padding:10px 6px;text-align:center;font-weight:800;font-size:clamp(15px,4.4vw,22px);color:#e6f5f3}
+.stairs div:nth-child(1){height:34%}
+.stairs div:nth-child(2){height:56%}
+.stairs div:nth-child(3){height:78%}
+.stairs div:nth-child(4){height:100%;background:var(--amber);color:#1b1305}
+.stairs small{display:block;font-weight:500;font-size:12px;opacity:.75}
+.btn{display:block;width:100%;text-align:center;background:var(--amber);color:#1b1305;font:700 17px Onest,sans-serif;padding:16px 22px;border:0;border-radius:12px;text-decoration:none;cursor:pointer}
+.btn:active{transform:translateY(1px)}
+.btn:focus-visible,input:focus-visible,.tg button:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+article{padding:44px 0 20px}
+article p{margin:0 0 16px}
+h2{font-size:clamp(23px,5.6vw,31px);line-height:1.2;font-weight:800;letter-spacing:-.015em;margin:48px 0 18px;padding-top:26px;border-top:2px solid var(--line)}
+h2:first-child{margin-top:0;border:0;padding:0}
+.chips{list-style:none;padding:0;margin:0 0 18px;display:flex;flex-direction:column;gap:8px}
+.chips li{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--teal);border-radius:10px;padding:10px 14px}
+.pair,.stack{display:grid;gap:12px;margin:0 0 20px}
+.pair div,.stack div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.pair b,.stack b{display:block;margin-bottom:4px;color:var(--teal)}
+.leak{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin:6px 0 22px}
+.leak p{margin:0 0 12px;font-weight:700}
+.row{display:grid;grid-template-columns:1fr auto;gap:2px 10px;font-size:15px;margin-bottom:10px}
+.row i{grid-column:1/-1;height:8px;border-radius:5px;background:var(--mint);position:relative;overflow:hidden}
+.row i:after{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);background:var(--amber);border-radius:5px}
+.row.ok i:after{background:var(--teal)}
+.step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 4px;margin:0 0 14px;border-top:5px solid var(--teal)}
+.step:nth-of-type(n+2){margin-left:0}
+.step h3{font-size:20px;line-height:1.25;margin-bottom:4px}
+.step .goal{display:inline-block;background:var(--mint);border-radius:8px;padding:2px 10px;font-weight:700;font-size:15px;margin-bottom:12px}
+.step ul{padding-left:20px;margin:0 0 14px}
+.step li{margin-bottom:6px}
+.step li::marker{color:var(--teal)}
+.step.top{border-top-color:var(--amber)}
+.note{background:var(--mint);border-radius:14px;padding:16px 18px;margin:0 0 20px;font-weight:500}
+.big{font-size:clamp(20px,5vw,25px);line-height:1.35;font-weight:800;margin:24px 0}
+ul.d{padding:0 0 0 22px;margin:0 0 18px}
+ul.d li{margin-bottom:6px}
+ul.d li::marker{color:var(--teal)}
+.calc{background:var(--ink);color:#fff;border-radius:18px;padding:20px;margin:0 0 20px}
+.calc label{display:block;font-size:15px;color:#c3dcda;margin-bottom:12px}
+.calc input{width:100%;font:400 17px Onest,sans-serif;padding:13px 14px;border-radius:12px;border:1px solid #2c5a62;background:#153e48;color:#fff;margin-top:5px}
+.tg{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:4px 0 16px}
+.tg button{font:700 16px Onest,sans-serif;padding:12px 0;border-radius:10px;border:1px solid #2c5a62;background:#153e48;color:#e6f5f3;cursor:pointer}
+.tg button[aria-pressed=true]{background:var(--amber);color:#1b1305;border-color:var(--amber)}
+.res{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.res div{background:#153e48;border-radius:12px;padding:12px}
+.res b{display:block;font-size:26px;line-height:1.1;color:#fff}
+.res span{font-size:13px;color:#9fd8d2}
+.fine{font-size:13px;color:#88aab0;margin:12px 0 0!important}
+h3.k{font-size:19px;margin:26px 0 12px;color:var(--teal)}
+.flow{list-style:none;padding:0;margin:0 0 18px}
+.flow li{position:relative;padding:0 0 16px 40px}
+.flow li:before{counter-increment:s;content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;background:var(--teal);color:#fff;font-weight:700;font-size:14px;display:grid;place-items:center}
+.flow{counter-reset:s}
+.flow li:after{content:"";position:absolute;left:13px;top:32px;bottom:4px;width:2px;background:var(--line)}
+.flow li:last-child:after{display:none}
+.ad{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 12px}
+.ad .u{font-size:13px;color:#4d6a70}
+.ad .t{color:#1a4fb4;font-size:18px;font-weight:600;line-height:1.3;margin:2px 0 4px}
+.ad .s{font-size:15px;line-height:1.5}
+.ig{border:1px solid var(--line);border-radius:14px;background:#fff;overflow:hidden;margin:0 0 6px}
+.ig .img{background:linear-gradient(135deg,var(--teal),var(--ink));color:#fff;padding:34px 20px;text-align:center;font-weight:800;font-size:21px;line-height:1.25}
+.ig .cap{padding:12px 16px;font-size:15px;line-height:1.5}
+.ig .go{display:block;background:var(--mint);padding:11px 16px;font-weight:700;font-size:15px;color:var(--teal)}
+.ig .lg{padding:0 16px 12px;font-size:12px;color:#4d6a70}
+.lp{display:grid;gap:18px;margin:0 0 20px;align-items:start}
+.phone{width:min(250px,100%);margin:0 auto;border:6px solid var(--ink);border-radius:28px;background:#fff;padding:14px 10px}
+.phone div{border-radius:8px;background:var(--mint);padding:9px 10px;margin-bottom:8px;font-size:12.5px;line-height:1.35}
+.phone div:first-child{background:var(--ink);color:#fff;font-weight:700;font-size:14px;padding:14px 10px}
+.phone div:last-child{background:var(--amber);color:#1b1305;font-weight:700;margin:0;text-align:center}
+.wa{background:#e2f3ee;border-left:4px solid var(--teal);border-radius:14px;padding:14px 16px;font-size:15px;line-height:1.7;margin:0 0 16px}
+.case{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:0 0 12px}
+.case b{color:var(--teal)}
+@media(min-width:720px){.lp{grid-template-columns:250px 1fr}}
+.cta{background:var(--ink);color:#fff;margin-top:30px;padding:44px 0 56px}
+.cta h2{border:0;padding:0;margin:0 0 14px;color:#fff}
+.cta p{color:#c3dcda}
+.cta ol{padding-left:22px;margin:0 0 22px;color:#e6f5f3}
+.cta li{margin-bottom:6px}
+form{display:grid;gap:12px;margin-top:18px}
+form label{font-size:15px;color:#c3dcda}
+form input{width:100%;font:400 17px Onest,sans-serif;padding:15px 16px;border-radius:12px;border:1px solid #2c5a62;background:#153e48;color:#fff;margin-top:5px}
+input::placeholder{color:#7fa5a8}
+small{color:#88aab0;font-size:13px;line-height:1.4}
+.bar{position:fixed;left:0;right:0;bottom:0;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(245,249,248,.96);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .25s}
+.bar.on{transform:none}
+.bar .btn{padding:14px}
+@media(min-width:720px){body{font-size:18px}.pair{grid-template-columns:1fr 1fr}.bar{display:none}.stairs{height:190px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="w">
+<span class="tag">Для владельцев стоматологий в Казахстане</span>
+<h1>Пошаговый план выхода на +5-10-15-20 млн тенге в стоматологии</h1>
+<p class="lead">Четыре ступени: от первых управляемых обращений до системы, где каждый пациент посчитан.</p>
+<a class="btn" href="#form">Получить разбор стоматологии</a>
+<div class="stairs" aria-hidden="true"><div>+5<small>млн ₸</small></div><div>+10<small>млн ₸</small></div><div>+15<small>млн ₸</small></div><div>+20<small>млн ₸</small></div></div>
+</div></header>
+
+<article><div class="w">
+
+<h2>Почему без плана рост не получается</h2>
+<p>Есть врачи, оборудование, лицензия, Instagram и сайт. Но в расписании то густо, то пусто, а новых пациентов в месяц то много, то почти нет. Владелец пробует всё подряд:</p>
+<ul class="chips"><li>«Давайте запустим таргет».</li><li>«Сделаем скидку».</li><li>«Найдём таргетолога подешевле».</li><li>«Попробуем блогера».</li><li>«Настроим рекламу сами».</li></ul>
+<p>Каждый подрядчик закрывает свой кусочек, а маркетинга становится больше, но понятнее, откуда приходят деньги, не становится. Сарафан помогает, но им нельзя управлять. Instagram строит доверие, но сам не даёт стабильный поток.</p>
+<p class="big">Проблема не в «плохой рекламе». У клиники нет системы привлечения пациентов, а значит, нет и плана роста.</p>
+
+<h2>Два спроса, которые нужно закрыть</h2>
+<div class="pair">
+<div><b>Горячий</b>Человек вечером вводит в поиск «имплантация зубов Алматы». Проблему осознал и сейчас выбирает клинику.</div>
+<div><b>Скрытый</b>Человек листает Instagram, видит видео врача, узнаёт себя. Он ничего не искал и запишется через несколько касаний.</div>
+</div>
+<p>Один канал закрывает только одну половину рынка. Поэтому основа плана: <b>таргетированная реклама + поисковая реклама + аналитика</b>.</p>
+
+<h2>Дешёвая заявка не равна пациенту</h2>
+<div class="leak"><p>Из 100 заявок по 1 000 ₸:</p>
+<div class="row"><span>Не ответили администратору</span><b>30</b><i style="--w:30%"></i></div>
+<div class="row"><span>Спросили только цену</span><b>20</b><i style="--w:20%"></i></div>
+<div class="row"><span>Нецелевые</span><b>20</b><i style="--w:20%"></i></div>
+<div class="row"><span>Записались, но не пришли</span><b>15</b><i style="--w:15%"></i></div>
+<div class="row ok"><span>Пришли на первичный приём</span><b>10</b><i style="--w:10%"></i></div>
+<p style="margin:6px 0 0;font-weight:500">Лечение начали единицы.</p></div>
+<p>Поэтому каждая ступень плана измеряется не количеством заявок, а цепочкой: <b>расход → обращения → записи → визиты → лечение → выручка</b>.</p>
+
+<h2>Из чего состоит система</h2>
+<p>Два контура работают вместе. Первый забирает тех, кто уже ищет стоматолога, второй создаёт интерес у тех, кто пока не ищет.</p>
+<div class="pair">
+<div><b>Контур 1. Сайт + реклама в Google и Яндекс</b>Человек сам вводит запрос, попадает на страницу услуги, видит цены и оставляет заявку.</div>
+<div><b>Контур 2. Таргет в Instagram + лидформа или WhatsApp</b>Человек видит объявление о своей проблеме и оставляет контакт в один-два тапа, не выходя из Instagram.</div>
+</div>
+<p>Над обоими контурами стоит аналитика: она показывает, откуда пришла каждая заявка и чем она закончилась.</p>
+
+<h2>Почему именно с такой рекламы и посадок приходят пациенты</h2>
+<h3 class="k">Контур 1: поиск и сайт</h3>
+<ol class="flow">
+<li><b>Запрос «имплантация астана цена».</b> Человек уже выбрал услугу и город и сравнивает цены. Это горячий спрос, а не «просто посмотреть».</li>
+<li><b>Объявление с услугой, городом и ценой «от».</b> Кликают те, кого цена устраивает. Остальные не кликают, и бюджет на них не тратится.</li>
+<li><b>Страница услуги с прайсом.</b> Человек видит стоимость до заявки. Поэтому он оставляет заявку не «спросить, сколько стоит», а уточнить цену под свой случай и записаться на приём.</li>
+<li><b>Заявка в два поля или кнопка WhatsApp.</b> Администратор отвечает человеку, который уже понимает услугу и цену. Такому проще сказать «да».</li>
+</ol>
+<p>Как настраивается поиск и зачем:</p>
+<ul class="d">
+<li>Ключи «услуга + город + цена / стоимость / записаться». Это фразы человека, который готов к решению.</li>
+<li>Отдельная группа объявлений и отдельная страница на каждую услугу. Тогда объявление и страница отвечают ровно на тот запрос, с которого человек пришёл.</li>
+<li>Минус-слова («бесплатно», «вакансии», «обучение», «своими руками»), чтобы не платить за нецелевые клики.</li>
+<li>Показ по времени работы клиники и отслеживание заявок и звонков, чтобы считать реальную цену обращения.</li>
+</ul>
+
+<h3 class="k">Контур 2: таргет в Instagram</h3>
+<ol class="flow">
+<li><b>Объявление о конкретной проблеме.</b> Не «мы стоматология», а «потеряли зуб: как восстановить». Человек узнаёт себя и останавливается.</li>
+<li><b>Лидформа с вопросами-фильтрами или сразу WhatsApp.</b> В форме человек сам выбирает услугу и удобное время. Случайные заявки отсеиваются ещё до администратора.</li>
+<li><b>Быстрый ответ администратора.</b> Ответ в течение нескольких минут с ориентиром по цене и предложением записаться.</li>
+<li><b>Повторный показ.</b> Тем, кто посмотрел объявление или сайт, но не оставил заявку, реклама показывается снова.</li>
+</ol>
+
+<h2>Какие объявления показываем</h2>
+<p>Примеры формата. Тексты, услуги и цены под каждую клинику подбираются отдельно.</p>
+<div class="ad"><div class="u">Реклама · clinic.kz</div><div class="t">Имплантация зубов в Астане. Цены от 150 000 ₸</div><div class="s">Прайс на сайте. Консультация и план лечения. Опытные хирурги. Запишитесь онлайн или в WhatsApp.</div></div>
+<div class="ad"><div class="u">Реклама · clinic.kz</div><div class="t">Брекеты в Астане: стоимость и сроки лечения</div><div class="s">Подберём систему под ваш случай. Цены на странице. Первая консультация без обязательств.</div></div>
+<div class="ig"><div class="img">Потеряли зуб? Как восстановить без лишних процедур</div><div class="cap">Врач-имплантолог объясняет, когда имплантация нужна, а когда можно обойтись без неё. Запишитесь на консультацию.</div><span class="go">Записаться</span><div class="lg">Реклама · лицензия клиники · есть противопоказания, нужна консультация специалиста</div></div>
+
+<h2>Какие посадочные страницы делаем</h2>
+<div class="lp">
+<div class="phone" aria-label="Схема посадочной страницы"><div>Имплантация зубов в Астане</div><div>Цены: от … ₸ по вариантам</div><div>Врачи, работы, лицензия</div><div>Оставить заявку · WhatsApp</div></div>
+<div>
+<ul class="d">
+<li><b>Заголовок повторяет запрос.</b> Человек сразу видит, что попал туда, куда шёл.</li>
+<li><b>Цены на странице.</b> Они отсекают тех, кому не подходит, и настраивают остальных на разговор о конкретной сумме.</li>
+<li><b>Врачи, работы и лицензия.</b> Снимают страх «разведут на лишнее».</li>
+<li><b>Короткая форма и WhatsApp.</b> Меньше шагов, больше заявок.</li>
+</ul>
+<p>Это схема. Реальные посадочные показываю на разборе клиники.</p>
+</div>
+</div>
+<!-- ЗДЕСЬ можно добавить скриншоты ваших реальных посадочных: <img src="lp1.jpg" alt="Посадочная: имплантация" style="width:100%;border-radius:14px"> -->
+
+<h2>Как приходят заявки</h2>
+<div class="wa"><b>Новая заявка</b><br>Услуга: имплантация<br>Имя: Айгерим<br>Телефон: +7 7XX XXX XX XX<br>Источник: Google, запрос «имплантация астана цена»<br>Страница: /implantatsiya<br>Время: 21:14</div>
+<p>Заявки приходят администратору в WhatsApp или Telegram и записываются в таблицу или CRM. Видно, откуда человек пришёл и что хотел, поэтому разговор начинается по делу. Дальше каждой заявке ставится статус: записан, пришёл, начал лечение. Так считается стоимость пациента, а не заявки.</p>
+
+<section id="cases" hidden>
+<h2>Кейсы и отзывы</h2>
+<!-- Уберите атрибут hidden у <section id="cases"> и заполните карточки реальными данными -->
+<div class="case"><b>Клиника, город.</b> Задача, что запускали, результат: заявки, записи, стоимость пациента, выручка. Отзыв владельца.</div>
+<div class="case"><b>Клиника, город.</b> Задача, что запускали, результат. Отзыв владельца.</div>
+</section>
+
+<h2>План по ступеням</h2>
+
+<div class="step">
+<h3>Шаг 1. Фундамент: считаем и закрываем горячий спрос</h3>
+<span class="goal">Первые +5 млн ₸</span>
+<ul>
+<li>Разбираем клинику: услуги, средний чек, маржинальность, загрузку врачей, где сейчас теряются обращения.</li>
+<li>Выбираем 2–3 услуги с лучшей экономикой, а не «всё сразу».</li>
+<li>Запускаем поисковую рекламу: отдельные объявления и посадочные под «имплантацию», «брекеты», «детского стоматолога».</li>
+<li>Настраиваем обработку обращений: быстрый ответ в WhatsApp, скрипт администратора, запись.</li>
+<li>Подключаем сквозную аналитику, чтобы видеть путь от клика до оплаты.</li>
+</ul></div>
+
+<div class="step">
+<h3>Шаг 2. Подключаем таргет: создаём спрос</h3>
+<span class="goal">Ступень +10 млн ₸</span>
+<ul>
+<li>Показываем клинику тем, кто ещё не ищет стоматолога, но нуждается в лечении.</li>
+<li>Тестируем услуги, офферы, форматы и креативы, а не один «идеальный» баннер.</li>
+<li>Возвращаем тех, кто уже видел рекламу или сайт, но не записался с первого раза.</li>
+<li>Не сработала связка? Не делаем вывод «реклама не работает», а меняем один элемент и тестируем снова.</li>
+</ul></div>
+
+<div class="step">
+<h3>Шаг 3. Масштабируем то, что окупается</h3>
+<span class="goal">Ступень +15 млн ₸</span>
+<ul>
+<li>Смотрим экономику по каждой услуге и усиливаем связки с приемлемой стоимостью пациента.</li>
+<li>Добавляем услуги с высоким чеком: имплантацию, ортодонтию, протезирование, эстетику.</li>
+<li>Заполняем окна у врачей, у которых есть свободные мощности, и расширяем районы охвата.</li>
+<li>Слабые связки отключаем без сожалений.</li>
+</ul></div>
+
+<div class="step top">
+<h3>Шаг 4. Управляемая система</h3>
+<span class="goal">Ступень +20 млн ₸</span>
+<ul>
+<li>Маркетинг превращается из статьи расходов «на веру» в канал, который можно считать, тестировать и улучшать.</li>
+<li>Вы знаете, откуда пришёл пациент, сколько стоило привлечение, сколько дошло до клиники и сколько денег принёс канал.</li>
+<li>Поток не зависит от одного человека и от того, порекомендовал ли вас кто-то на этой неделе.</li>
+</ul></div>
+
+<p class="note">Реклама не исправляет плохую бизнес-модель. Она масштабирует то, что уже есть. Если нет свободных мощностей или экономика услуги не сходится, начинаем с этого.</p>
+
+<h2>Посчитайте свою цель</h2>
+<p>Ступени +5 / +10 / +15 / +20 млн ₸ условные. Реальный результат зависит от среднего чека и загрузки. Посчитайте, сколько пациентов и заявок нужно вашей клинике.</p>
+<div class="calc">
+<div class="tg" role="group" aria-label="Цель по дополнительной выручке в месяц">
+<button type="button" data-t="5" aria-pressed="true">+5</button><button type="button" data-t="10" aria-pressed="false">+10</button><button type="button" data-t="15" aria-pressed="false">+15</button><button type="button" data-t="20" aria-pressed="false">+20</button>
+</div>
+<label>Средний чек начатого лечения, ₸<input id="chk" type="number" inputmode="numeric" value="150000" min="1"></label>
+<label>Сколько заявок из 100 доходит до лечения, %<input id="cv" type="number" inputmode="numeric" value="10" min="1" max="100"></label>
+<div class="res"><div><b id="p">—</b><span>новых пациентов на лечение в месяц</span></div><div><b id="l">—</b><span>заявок в месяц</span></div></div>
+<p class="fine">Цель в млн ₸ дополнительной выручки в месяц. Конверсия по умолчанию 10% — пример для расчёта, подставьте свою.</p>
+</div>
+
+<h2>Честно про результат</h2>
+<p>Я не обещаю «заявки за копейки» и конкретную выручку. Стоимость обращения зависит от города, услуги, конкуренции, сезона, бюджета, посадочной страницы и работы администраторов. Задача плана: найти рабочую экономическую модель именно для вашей клиники.</p>
+<p>Реклама медицинских услуг в Казахстане должна быть достоверной, содержать данные о лицензии, а коммерческие публикации в соцсетях должны быть помечены как реклама. План строится с учётом этих требований.</p>
+
+<h2>Кому подходит</h2>
+<ul class="d"><li>Есть действующая клиника, лицензия и врачи.</li><li>Есть свободные мощности или желание увеличить загрузку.</li><li>Есть услуги с понятной экономикой и точка обращения (Instagram, сайт, WhatsApp).</li><li>Хочется получать пациентов системно, а не только за счёт сарафана.</li></ul>
+<p class="big">Вам не нужен ещё один человек, который «настроит рекламу». Вам нужен план, где каждая ступень измерима.</p>
+
+</div></article>
+
+<section class="cta" id="form"><div class="w">
+<h2>С какой ступени начинать именно вам?</h2>
+<p>Проведу разбор вашей стоматологии и покажу:</p>
+<ol><li>Какие услуги продвигать в первую очередь.</li><li>Что получать через таргет, а что через поиск.</li><li>Куда вести пациента и где теряются обращения.</li><li>Какие показатели отслеживать.</li><li>Как выглядит ваш план по ступеням.</li></ol>
+<p>Без обязательств и договора на старте.</p>
+<form id="f" novalidate>
+<label>Город<input name="city" placeholder="Например, Алматы" autocomplete="address-level2" required></label>
+<label>Ссылка на сайт или Instagram клиники<input name="link" placeholder="instagram.com/клиника" autocapitalize="off" required></label>
+<label>Ваше имя<input name="name" placeholder="Как к вам обращаться" autocomplete="name"></label>
+<button class="btn" type="submit">Получить разбор стоматологии</button>
+<small>Я посмотрю вашу текущую ситуацию и покажу, какие точки роста вижу. Заявка откроется в WhatsApp.</small>
+</form>
+</div></section>
+
+<div class="bar" id="bar"><a class="btn" href="#form">Получить разбор стоматологии</a></div>
+
+<script>
+// ↓↓↓ НАСТРОЙКИ ↓↓↓
+var WA_NUMBER = "77000000000"; // номер WhatsApp без «+» и пробелов
+// ↑↑↑ НАСТРОЙКИ ↑↑↑
+var bar=document.getElementById("bar"),form=document.getElementById("form");
+function chk(){var y=window.scrollY,h=window.innerHeight,r=form.getBoundingClientRect();
+bar.classList.toggle("on",y>h*.8&&r.top>h*.6)}
+addEventListener("scroll",chk,{passive:true});chk();
+var T=5,$=function(i){return document.getElementById(i)};
+function calc(){var c=+$("chk").value,v=+$("cv").value;
+if(!(c>0)||!(v>0&&v<=100)){$("p").textContent="—";$("l").textContent="—";return}
+var p=Math.ceil(T*1e6/c),l=Math.ceil(p/(v/100)),f=function(n){return n.toLocaleString("ru-RU")};
+$("p").textContent=f(p);$("l").textContent=f(l)}
+[].forEach.call(document.querySelectorAll(".tg button"),function(b){b.addEventListener("click",function(){
+T=+b.dataset.t;[].forEach.call(document.querySelectorAll(".tg button"),function(x){x.setAttribute("aria-pressed",x===b)});calc()})});
+$("chk").addEventListener("input",calc);$("cv").addEventListener("input",calc);calc();
+document.getElementById("f").addEventListener("submit",function(e){
+e.preventDefault();var d=new FormData(e.target),c=(d.get("city")||"").trim(),l=(d.get("link")||"").trim();
+if(!c||!l){[].forEach.call(e.target.querySelectorAll("input[required]"),function(i){i.style.borderColor=i.value.trim()?"":"#e39a2d"});return}
+var u=new URLSearchParams(location.search),t="Здравствуйте! Хочу получить разбор стоматологии.\nГород: "+c+"\nСайт/Instagram: "+l+((d.get("name")||"").trim()?"\nИмя: "+d.get("name").trim():"")+(u.get("utm_source")?"\nИсточник: "+u.get("utm_source"):"");
+location.href="https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(t)});
+</script>
+</body>
+</html>
